@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:checkable="true"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvBookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BooName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvAuthorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BooName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BooName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvDoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BooName"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivThumbNail"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:scaleType="centerCrop" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
